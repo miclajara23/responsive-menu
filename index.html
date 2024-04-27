@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="16x16" href="../favicon.ico">
+    <link rel="icon" sizes="32x32" href="../favicon.ico">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <meta name="description" content="A website all about possums">
+    <title>Home - Possum Palooza</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-icon">
+            <svg viewbox="0 0 60 60">
+                <line x1="5%" y1="50%" x2="95%" y2="50%" />
+                <line x1="5%" y1="50%" x2="95%" y2="50%" />
+            </svg>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="about/index.html">About</a></li>
+                <li><a href="contact/index.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero">
+        <img src="/images/hero/car.avif" alt="yellow mercedes-benz">
+        <div class="overlay">
+            <h1>Amazing Mercedes-benz Car</h1>
+        </div>
+    </div>
+    <main>
+        <h2>My dream car</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dignissimos repellat voluptate veritatis
+            commodi possimus, error ea. Eligendi, quo nesciunt quas consequuntur error iste. A, maxime. Facere, nesciunt
+            excepturi consequatur accusamus cumque culpa, totam maiores numquam illo dolorum neque quod aut cum illum
+            vel ex eius fugiat, iure distinctio qui vitae inventore exercitationem. Repudiandae blanditiis quos, quo
+            aperiam molestias, in quas accusantium illum earum necessitatibus voluptate nihil voluptatum explicabo
+            dolores pariatur, nam nobis eveniet sint nesciunt at hic veniam. Reprehenderit, unde nostrum velit, ut
+            molestiae iste excepturi eveniet itaque provident exercitationem maxime sapiente neque voluptatum modi quas
+            nemo dolor mollitia!</p>
+        <p>Beatae velit, possimus similique quis aliquam ex dignissimos nesciunt illum voluptatibus mollitia repudiandae
+            error vel eius at quibusdam quidem minima ipsa reiciendis perspiciatis architecto doloribus iste deserunt
+            facilis fugiat. Exercitationem culpa ducimus eveniet expedita excepturi molestias suscipit mollitia
+            deserunt? Voluptatem deleniti tempore dolorum rem consequatur tempora adipisci eos necessitatibus ut nam
+            praesentium, in amet modi possimus illum quia beatae sequi atque consequuntur quas minus odio illo
+            laudantium. Nemo in soluta at deserunt maiores. Tenetur, blanditiis maiores eos ducimus quod culpa fugit
+            itaque quis placeat perferendis asperiores distinctio magni iste sed reprehenderit at. Aut voluptatum eaque
+            explicabo atque inventore numquam quae!</p>
+        <p>Nesciunt in quod optio dicta asperiores facilis alias beatae consectetur sint eaque cupiditate error rem
+            labore aliquid, aliquam sed officiis esse totam ratione pariatur ab distinctio vitae necessitatibus. Eos
+            saepe accusantium reiciendis blanditiis eum voluptate molestias vel non modi. Iusto fugiat dolorum saepe
+            numquam quam quod, vero accusantium, velit consequatur, reprehenderit laboriosam praesentium earum quisquam
+            quia corrupti provident excepturi accusamus! Placeat doloremque sunt aperiam, velit, tempore omnis dolorem
+            doloribus saepe eaque iure quo, libero laudantium. Aliquam consequatur commodi nostrum molestias. Nemo iure
+            perferendis repellat nesciunt. Facere eligendi sapiente aliquam laboriosam. Voluptas, ut perspiciatis autem
+            minus sequi doloremque laudantium est at.</p>
+    </main>
+
+
+
+    <footer id="main-footer">
+        <p>Michael Dream Car &copy; 2024 All right reserved</p>
+    </footer>
+</body>
+
+
+<script>
+    const header = document.querySelector("header");
+
+    document.querySelector(".menu-icon").addEventListener("click", () => {
+        header.classList.toggle("close");
+    });
+</script>
+
+
+</html>
